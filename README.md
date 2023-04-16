@@ -1,4 +1,7 @@
-Utilisation de Hadoop et Spark MapReduce pour analyser les fichiers Log d’un site web de e-commerce afin de fournir des recommandations de produits. ![image](https://user-images.githubusercontent.com/121756296/232309548-5146f339-7d94-4106-84f7-07d0dd107bbb.png)
+Utilisation de Hadoop et Spark MapReduce pour analyser les fichiers Log d’un site web de e-commerce afin de fournir des recommandations de produits.
+
+
+Réaliser par Seif Ferjani ING INF2
 
 
 ### Project Structure
@@ -64,4 +67,4 @@ spark-submit --class "RecommendationApp" --master <master-url> product-recommend
 ```
 
 
-Réaliser par Seif Ferjani ING INF2
+

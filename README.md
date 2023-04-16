@@ -1,16 +1,10 @@
-# Product Recommendation
-Use Hadoop and Spark MapReduce jobs to analyze e-commerce web log files to provide product recommendation.
-
+Utilisation de Hadoop et Spark MapReduce pour analyser les fichiers Log d’un site web de e-commerce afin de fournir des recommandations de produits. ![image](https://user-images.githubusercontent.com/121756296/232309548-5146f339-7d94-4106-84f7-07d0dd107bbb.png)
 
 
 ### Project Structure
 - hadoop folder contains the hadoop MapReduce Job Implementation.
 - spark folder contains the spark MapReduce Job Implementation.
 
-### Recommendation Model
-- One customer could visit multiple products during a visit session.
-- Product co-occurrence measures the frequency with which two products appear close to each other in a customer’s visit session.
-- It provides results for “people who is interested in this, also interested that”.
 
 ### MapReduce Jobs:
 
@@ -69,7 +63,5 @@ Submit the recommendation jar file to spark cluster with input/output locations.
 spark-submit --class "RecommendationApp" --master <master-url> product-recommendation_2.11-1.0.jar <input_log_files_location> <output_location>
 ```
 
-License
-----
 
-MIT
+Réaliser par Seif Ferjani ING INF2
